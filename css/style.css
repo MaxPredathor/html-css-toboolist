@@ -21,3 +21,34 @@ body{
     display: inline-block;
     font-size: 60px;
 }
+.bg-white{
+    background-color: white;
+}
+.bg-blue{
+    background-color: rgb(71, 173, 241);
+}
+.format{
+    margin: auto;
+    margin-top: 60px;
+    height: 3vw;
+    width: 70%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid rgb(246, 248, 249);   
+}
+.box{
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.white-box{
+    border: 2px solid rgb(208, 213, 217);
+    color: rgb(208, 213, 217);
+}
+.blue-box{
+    color: white;
+    margin-left: 60px;
+    border: 2px solid rgb(71, 173, 241);
+}
