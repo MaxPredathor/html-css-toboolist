@@ -5,14 +5,16 @@
 }
 header{
     background-color: white;
-}
-body{
-    background-color: rgb(246, 248, 249);
-    margin-left: 25px;
-}
-.head-container {
     width: 100vw;
     height: 5vw;
+}
+body{
+    width: 100vw;
+    background-color: rgb(246, 248, 249);
+}
+main{
+    margin: auto;
+    width: 70%;
 }
 .head-container > img{
     vertical-align: bottom;
@@ -28,10 +30,9 @@ body{
     background-color: rgb(71, 173, 241);
 }
 .format{
+    width: 100%;
     margin: auto;
-    margin-top: 60px;
-    height: 3vw;
-    width: 70%;
+    margin-top: 40px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: 2px solid rgb(246, 248, 249);   
@@ -41,7 +42,8 @@ body{
     padding: 8px;
     border-radius: 5px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .white-box{
     border: 2px solid rgb(208, 213, 217);
@@ -51,4 +53,12 @@ body{
     color: white;
     margin-left: 60px;
     border: 2px solid rgb(71, 173, 241);
+}
+.format2{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+}
+ol{
+    list-style: none;
 }
