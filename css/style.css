@@ -29,6 +29,21 @@ main{
 .bg-blue{
     background-color: rgb(71, 173, 241);
 }
+.bg-orange{
+    background-color: rgb(241, 153, 40);
+}
+.bg-purple{
+    background-color: rgb(156, 114, 228);
+}
+.bg-verde{
+    background-color: rgb(176, 201, 38);
+}
+.bg-fucsia{
+    background-color: rgb(216, 99, 161);
+}
+.bg-acquamarina{
+    background-color: rgb(100, 192, 169);
+}
 .format{
     width: 100%;
     margin: auto;
