@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+  font-family: Asimov;
+  src: url(/font/Asimov-Pro-Ultrablack/AsimovProUlt.otf);
+}
 header{
     background-color: white;
     width: 100vw;
-    height: 5vw;
+    height: 50%;
+    font-family: Asimov;
 }
 body{
     width: 100vw;
@@ -15,6 +20,11 @@ body{
 main{
     margin: auto;
     width: 70%;
+    font-family: Asimov;
+}
+img{
+    width: 80px;
+    height: 80px;
 }
 .head-container > img{
     vertical-align: bottom;
@@ -63,6 +73,7 @@ main{
 .white-box{
     border: 2px solid rgb(208, 213, 217);
     color: rgb(208, 213, 217);
+    margin-left: 5px;
 }
 .blue-box{
     color: white;
@@ -89,7 +100,7 @@ ol{
     display: inline-block;
     width: 100px;
     height: 40px;
-    padding: 8px;
+    padding: 6px;
     border-radius: 15px;
     font-size: 20px;
     text-align: center;
@@ -98,4 +109,22 @@ ol{
 }
 ol li{
     margin-top: 10px;
+}
+.check::before{
+    content: "\2713";
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 8px;
+    color: green;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.cross:before{
+    content: "\292B";
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 8px;
+    color: red;
+    font-size: 12px;
+    margin-right: 10px;
 }
